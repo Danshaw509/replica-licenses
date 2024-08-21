@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StarwindLicense>
+  <major_version>8</major_version>
+  <minor_version>4</minor_version>
+  <id>2</id>
+  <name>Dan Shaw</name>
+  <organization>dsfudge</organization>
+  <email></email>
+  <max_storage_in_gb>0</max_storage_in_gb>
+  <processors>0</processors>
+  <expdate>0</expdate>
+  <asmexpdate>0</asmexpdate>
+  <proactivesupportexpdate>0</proactivesupportexpdate>
+  <system_id>0</system_id>
+  <product_desc>SwSAN</product_desc>
+  <issuer>0xB0CAD185C1DBC6E0</issuer>
+  <infoscenario></infoscenario>
+  <flags>
+    <AdvancedFeatures>1</AdvancedFeatures>
+    <FreeLicense>1</FreeLicense>
+    <GuiManagementAllowed>0</GuiManagementAllowed>
+    <GuiMonitoringAllowed>1</GuiMonitoringAllowed>
+    <LicenseType>22</LicenseType>
+    <SptiDeviceMask>255</SptiDeviceMask>
+    <adapters>0</adapters>
+    <bSpti>1</bSpti>
+    <servers>3</servers>
+  </flags>
+  <plugins>
+    <plugin unlimited="false" config_review_required="false">cloudreplicationvtl</plugin>
+    <plugin unlimited="true" config_review_required="false">diskbridge</plugin>
+    <plugin unlimited="false" config_review_required="false">haimage</plugin>
+    <plugin unlimited="false" config_review_required="true">haimageasyncreplica</plugin>
+    <plugin unlimited="false" config_review_required="false">haimagesyncreplica</plugin>
+    <plugin unlimited="true" config_review_required="false">imagefile</plugin>
+    <plugin unlimited="true" config_review_required="true">lsfs</plugin>
+    <plugin unlimited="true" config_review_required="false">lwc</plugin>
+    <plugin unlimited="true" config_review_required="false">nvmftarget</plugin>
+    <plugin unlimited="true" config_review_required="false">ramdisk</plugin>
+    <plugin unlimited="false" config_review_required="false">spti</plugin>
+    <plugin unlimited="true" config_review_required="false">virtualdvd</plugin>
+    <plugin unlimited="true" config_review_required="false">virtualtape</plugin>
+  </plugins>
+</StarwindLicense>
+<!--2BAA3016AC96004F37FBF50A0F2D80B4DBD4DC64E809ED14333208E29C4756F6B3540DEAB214C531BBAAF221B6454ED281FA7AF2B3EF13C1BC2A82D4E4D075A55C636FB6A8EED9815D7E458CB832E334AB94CA9995123BC9138E40BE35D4E8F59A686A6AE44134E7471A0BBDA4A54FAD191ED62DE3AA10069B0DCD69E097AE31-->
